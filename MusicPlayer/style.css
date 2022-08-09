@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Varela+Round&display=swap');
+body
+{
+    background-image: url('Background.jpg');
+    background-color:antiquewhite;
+}
+#para{
+    background-image: url('Background.jpg');
+}
+#soundbar{
+    width: 80%;
+    cursor: pointer;
+}
+nav
+{
+    position: sticky;
+    top: 0;
+    font-family: 'ubuntu', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;                           /* To dislay in one Line*/
+    list-style-type: none;                   /* To remove dot list format*/
+    color: white;
+    background-color: blue;
+    align-items: center;                    /* for center in both upper and lower in font text with text*/
+
+}
+
+.container{
+    background-image: url('45737.jpg');
+     min-height: 80vh;                    /*min height 80% */
+     color: white;
+     background-color: chocolate;
+     margin: 25px auto;
+     width: 70%;
+     text-align: center;
+     border-radius: 15px;
+}
+
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    flex-direction: column;
+}
+.icons{
+    display: flex;
+     margin-top: 10px;
+     margin-left: 100px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.Logo img{
+    width: 100px;
+}
+#spot{
+    font-size: 1.4rem;
+}
+.Imagesong{
+    width: 50px;
+    border-radius: 50px;
+}
+.allSongs{
+height: 50px; 
+display: flex;  
+background-color: aliceblue;
+color: black;
+align-items: center;
+margin:12px auto;
+width: 80%;
+justify-content: space-between;
+border-radius: 30px;
+
+padding-left: 20px;
+padding-right: 20px;
+cursor: pointer;
+}
+.themeinfo{
+    left: 6%;
+    position: absolute;
+}
+.themeinfo img{
+    opacity: 0; /* for initially gif should not work*/
+    transition: opacity 0.4s ease-in;
+}
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: rgb(0, 64, 255);
+    }
+  }
+
+#sped{
+    margin-bottom: 20px;
+    margin-left: 100px;
+    right: 0px;
+    cursor: pointer;
+}
